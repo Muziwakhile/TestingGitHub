@@ -10,15 +10,14 @@ namespace TestingGitHub
     {
         static void Main(string[] args)
         {
+            Me("Muziwakhile", "Thwala");
 
-            Console.WriteLine("Hello World from GitHub");
-
-            string name = "Muziwakhile";
-            string surname = "Thwala";
-
-            Console.WriteLine($"My name is {name} {surname}");
- 
             Console.Read();
+        }
+
+        private static void Me(string name, string surname)
+        {
+            Console.WriteLine($"My name is {name} {surname}");
         }
     }
 }
